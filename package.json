@@ -1,0 +1,22 @@
+{
+  "name": "spec",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jest-cucumber-config.js",
+  "scripts": {
+    "test": "NODE_ENV=debug jest --config jest.config.js --detectOpenHandles --watch",
+    "test:debug:puppeteer": "DEBUG='puppeteer:protocol' npm run test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.6.0",
+    "babel-loader": "^8.0.5",
+    "babel-preset-env": "^1.7.0",
+    "jest-cucumber": "^2.0.2",
+    "jest-puppeteer": "^3.8.0",
+    "lodash": "^4.17.11",
+    "puppeteer": "^1.11.0"
+  }
+}
