@@ -70,7 +70,7 @@ defineFeature(feature, test => {
 
         when(/^I enter "([^"]*)" 's into the input field$/, async (expertName) => {
           await bs.delay(2000)
-          await bs.goto('https://www.golem.de')
+          await bs.goToHost('https://www.golem.de')
           expect(2).toBe(2)
         })
 
